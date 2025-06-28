@@ -1,0 +1,9 @@
+test_name: sample
+steps:
+  - type: action
+    name: touch_state
+assertions:
+  - type: state
+    field: touched
+    value: yes
+    timeout: 1

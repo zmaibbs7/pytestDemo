@@ -1,0 +1,12 @@
+test_name: example
+steps:
+  - type: action
+    name: set_value
+    args:
+      key: foo
+      value: bar
+assertions:
+  - type: state
+    field: foo
+    value: bar
+    timeout: 1
