@@ -1,0 +1,29 @@
+working:
+  # —— 简单指令：完全由 YAML 描述，没有 module/class —— #
+  # 全局割草
+  mow_global:
+    method: "a"
+    priority: 1
+    order: 100
+    timeout: 60
+
+  # 沿边割草
+  mow_edge:
+    method: "a"
+    priority: 1
+    order: 101
+    timeout: 60
+
+  # 区域割草
+  mow_region:
+    method: "a"
+    priority: 1
+    order: 102
+    timeout: 60
+
+  # 定点割草
+  mow_spot:
+    method: "a"
+    priority: 1
+    order: 103
+    timeout: 60
