@@ -1,0 +1,21 @@
+test_name: 全局割草并回充
+
+steps:
+  - type: action
+    name: start_mowing_global
+
+assertions:
+  - type: state
+    field: sub_status
+    value: WORKING_STATE_RUNNING
+    timeout: 60
+
+steps:
+  - type: action
+    name: pause_and_dock
+
+assertions:
+  - type: state
+    field: dock_status
+    value: DOCK_SUCCESS
+    timeout: 120
