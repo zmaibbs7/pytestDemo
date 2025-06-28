@@ -1,0 +1,59 @@
+# === Python 编译缓存 ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 单元测试缓存
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# mypy 类型检查缓存
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pipenv / poetry / virtualenv
+pip-log.txt
+pip-delete-this-directory.txt
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter notebook 检查点
+.ipynb_checkpoints/
+
+# 本地配置文件
+*.env
+*.env.*
+
+# === VS Code 配置文件 ===
+.vscode/
+.history/
+
+# VS Code 插件生成的临时文件
+*.code-workspace
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# MacOS 和 Linux 额外文件
+.DS_Store
+Thumbs.db
+
+# log文件
+*.log
+
+# pyinstaller 构建输出
+build/
+dist/
+*.spec
+
+# 缓存和临时文件
+*.tmp
+*.swp
